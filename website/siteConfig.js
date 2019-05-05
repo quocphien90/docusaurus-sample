@@ -88,7 +88,7 @@ const siteConfig = {
     '/docusaurus-sample/js/code-block-buttons.js',
   ],
 
-  stylesheets: ['/docusaurus-sample/css/code-block-buttons.css'],
+  stylesheets: ['/docusaurus-sample//css/code-block-buttons.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
