@@ -40,6 +40,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
+    {doc: 'doc6', label: 'Others'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
@@ -81,7 +82,13 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+    '/docusaurus-sample//js/code-block-buttons.js',
+  ],
+
+  stylesheets: ['/docusaurus-sample/css/code-block-buttons.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
