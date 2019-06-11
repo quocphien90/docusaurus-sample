@@ -1,0 +1,1120 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>reference/Dropdown · kintone ui component</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;dropdown&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#dropdown&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dropdown&lt;/h1&gt;
+"/><meta name="docsearch:version" content="next"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="reference/Dropdown · kintone ui component"/><meta property="og:type" content="website"/><meta property="og:url" content="https://__userName__.github.io/docusaurus-sample/"/><meta property="og:description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;dropdown&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#dropdown&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dropdown&lt;/h1&gt;
+"/><meta property="og:image" content="https://__userName__.github.io/docusaurus-sample/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://__userName__.github.io/docusaurus-sample/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/docusaurus-sample/img/kintone.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://__userName__.github.io/docusaurus-sample/blog/atom.xml" title="kintone ui component Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://__userName__.github.io/docusaurus-sample/blog/feed.xml" title="kintone ui component Blog RSS Feed"/><link rel="stylesheet" href="/docusaurus-sample//css/code-block-buttons.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/docusaurus-sample/js/code-block-buttons.js"></script><script src="/docusaurus-sample/js/scrollSpy.js"></script><link rel="stylesheet" href="/docusaurus-sample/css/main.css"/><script src="/docusaurus-sample/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaurus-sample/"><img class="logo" src="/docusaurus-sample/img/kintone.png" alt="kintone ui component"/><h2 class="headerTitleWithLogo">kintone ui component</h2></a><a href="/docusaurus-sample/versions"><h3>next</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docusaurus-sample/docs/next/home" target="_self">Docs</a></li><li class=""><a href="/docusaurus-sample/docs/next/doc4" target="_self">API</a></li><li class=""><a href="/docusaurus-sample/docs/next/doc6" target="_self">Others</a></li><li class=""><a href="/docusaurus-sample/help" target="_self">Help</a></li><li class=""><a href="/docusaurus-sample/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">reference/Dropdown</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="dropdown"></a><a href="#dropdown" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dropdown</h1>
+<h2><a class="anchor" aria-hidden="true" id="overview"></a><a href="#overview" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<p><img src="../img/dropdown.PNG" alt="Dropdown"></p>
+<table>
+<thead>
+<tr><th>Number</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Main area</td></tr>
+<tr><td>2</td><td>Content area</td></tr>
+<tr><td>3</td><td>Selected item</td></tr>
+<tr><td>4</td><td>Not selected item</td></tr>
+<tr><td>5</td><td>Disabled item</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="constructor"></a><a href="#constructor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Constructor</h2>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>options</td><td>Object</td><td>No</td><td>The object contains params of constructor.</td></tr>
+<tr><td>options.items</td><td>Array&lt;Object&gt;</td><td>No</td><td>List of items will be displayed on dropdown.</td></tr>
+<tr><td>options.items[].value</td><td>String</td><td>Yes</td><td>The value of an item.<br>If the value is duplicate, the error will be displayed</td></tr>
+<tr><td>options.items[].label</td><td>String</td><td>No</td><td>The label of an item.</td></tr>
+<tr><td>options.items[].isDisabled</td><td>Boolean</td><td>No</td><td>Indicate item will be disabled when display. Default value is false.</td></tr>
+<tr><td>options.value</td><td>String</td><td>No</td><td>Default selected value. <br> If the 'options.value' is nonexistent value, the error will be displayed</td></tr>
+<tr><td>options.isDisabled</td><td>Boolean</td><td>No</td><td>The dropdown will be disabled. <br> Default value: 'false'</td></tr>
+<tr><td>options.isVisible</td><td>Boolean</td><td>No</td><td>The dropdown will be visible. <br> Default value: 'true'</td></tr>
+</tbody>
+</table>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+    
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">items</span>: items, <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>};
+    }
+
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+        );
+    }
+}
+</span></code></pre>
+<p></details></p>
+<h2><a class="anchor" aria-hidden="true" id="methods"></a><a href="#methods" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Methods</h2>
+<h3><a class="anchor" aria-hidden="true" id="render"></a><a href="#render" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>render()</h3>
+<p>Get dom element of component.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Returns</strong></p>
+<p>Dom element</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+    
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">items</span>: items, <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>};
+    }
+
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+        );
+    }
+}
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="additemitem"></a><a href="#additemitem" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>addItem(item)</h3>
+<p>Add an item to dropdown list.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>item</td><td>Object</td><td>Yes</td><td>The item will be added to dropdown list.</td></tr>
+<tr><td>item.value</td><td>String</td><td>Yes</td><td>The value of an item.</td></tr>
+<tr><td>item.label</td><td>String</td><td>Yes</td><td>Display string.</td></tr>
+<tr><td>item.isDisabled</td><td>Boolean</td><td>Yes</td><td>Indicate item will be disabled when display. <br>Default value: 'false'</td></tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+    
+dropdown.addItem({<span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>, <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>, <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: [],
+            <span class="hljs-attr">value</span>: <span class="hljs-literal">undefined</span>
+        }
+    }
+   
+    render() {
+        <span class="hljs-keyword">return</span> (
+         <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Add Item<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+   
+    handleClick= () =&gt; {
+      const item = {
+        label: 'Lemon',
+        value: 'Lemon',
+        isDisabled: false
+      };
+      this.setState(prevState =&gt; ({
+        items: prevState.items ? prevState.items.concat([item]) : [item]
+      }))
+    };
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="removeitemindex"></a><a href="#removeitemindex" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>removeItem(index)</h3>
+<p>Remove an item at specific position in dropdown's list.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>index</td><td>Integer</td><td>Yes</td><td>The index of remove item.</td></tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+<span class="hljs-keyword">var</span> firstItem = dropdown.getItems()[<span class="hljs-number">0</span>];
+dropdown.removeItem(<span class="hljs-number">0</span>);
+<span class="hljs-built_in">console</span>.log(firstItem);
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: [
+                {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            }
+            ]
+        }
+    }
+   
+    render() {
+        <span class="hljs-keyword">return</span> (
+         <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Remove Item<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+   
+    handleClick= () =&gt; {
+      this.setState(prevState =&gt; {
+        if (prevState.items[0]) {
+           if (this.state.value === prevState.items[0].value) {
+             prevState.value = undefined;
+           }
+           prevState.items.splice(0, 1)
+           return prevState;
+        }
+        return prevState;
+      });
+    };
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="getitems"></a><a href="#getitems" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>getItems()</h3>
+<p>Get all items of the dropdown.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Returns</strong></p>
+<p>The list contains all items of dropdown.</p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>items</td><td>List&lt;Object&gt;</td><td>List of items objects in dropdown.</td></tr>
+<tr><td>items[].label</td><td>String</td><td>Display string.</td></tr>
+<tr><td>items[].value</td><td>String</td><td>The value of an item.</td></tr>
+<tr><td>items[].isDisabled</td><td>Boolean</td><td>Indicate item was disabled.</td></tr>
+</tbody>
+</table>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+<span class="hljs-keyword">var</span> list = dropdown.getItems();
+list.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">item</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(item);
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">items</span>: items};
+    }
+   
+    render() {
+        <span class="hljs-keyword">return</span> (
+         <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Get Items<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+   
+    handleClick = () =&gt; {
+        this.state.items.forEach(item =&gt; {
+            console.log(item);
+        });
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="getvalue"></a><a href="#getvalue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>getValue()</h3>
+<p>Get value of the selected item</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Returns</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>value</td><td>String</td><td>The value of the selected item</td></tr>
+</tbody>
+</table>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+<span class="hljs-keyword">var</span> selectedItem = dropdown.getValue();
+<span class="hljs-built_in">console</span>.log(selectedItem);
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+
+    render() {
+        <span class="hljs-keyword">return</span> (
+         <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Get Value<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+   
+    handleClick = () =&gt; {
+        console.log(this.state.value);
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="setvaluevalue"></a><a href="#setvaluevalue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>setValue(value)</h3>
+<p>Set the selected value for dropdown.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>value</td><td>String</td><td>Yes</td><td>The value of an Item in dropdown. <br> If the 'value' is nonexistent value, the error will be displayed</td></tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+dropdown.setValue(<span class="hljs-string">'Orange'</span>);
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+   
+    render() {
+        <span class="hljs-keyword">return</span> (
+         <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Set Value<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+   
+    handleClick = () =&gt; {
+        this.setState({value: 'Orange'});
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="disableitemvalue"></a><a href="#disableitemvalue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>disableItem(value)</h3>
+<p>Set the disabled item for dropdown.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>value</td><td>String</td><td>Yes</td><td>The value of an Item in dropdown.</td></tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+dropdown.disableItem(<span class="hljs-string">'Orange'</span>);
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+   
+   render() {
+        <span class="hljs-keyword">return</span> (
+         <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Disabled Item<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+ 
+    handleClick = () =&gt; {
+        const items = [...this.state.items];
+        items[0].isDisabled = true;
+ 
+        this.setState({ items: items });
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="enableitemvalue"></a><a href="#enableitemvalue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>enableItem(value)</h3>
+<p>Set the enabled item for dropdown.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>value</td><td>String</td><td>Yes</td><td>The value of an Item in dropdown.</td></tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+dropdown.enableItem(<span class="hljs-string">'Banana'</span>);
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+   
+   render() {
+        <span class="hljs-keyword">return</span> (
+         <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{(value)</span> =&gt;</span> {this.setState({value})}} /&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Enabled Item<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+ 
+    handleClick = () =&gt; {
+        const items = [...this.state.items];
+        items[1].isDisabled = false;
+ 
+        this.setState({ items: items });
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="oneventname-callback"></a><a href="#oneventname-callback" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>on(eventName, callBack)</h3>
+<p>Register callback for change event</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>eventName</td><td>String</td><td>Yes</td><td>Name of event: <ul><li>'change'</li></ul></td></tr>
+<tr><td>callback</td><td>function</td><td>Yes</td><td>callback</td></tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+dropdown.on(<span class="hljs-string">'change'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">value</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'on change'</span>);
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+  
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+  
+   render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span>  <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{this.handleChange</span> } /&gt;</span>
+        );
+    }
+        handleChange = (value) =&gt; {
+            this.setState({value});
+            console.log('value: ' + value);
+        }
+    }
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="show"></a><a href="#show" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>show()</h3>
+<p>Display the dropdown.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+dropdown.show();
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+ 
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+   
+   render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span>  <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{this.handleChange}</span>  <span class="hljs-attr">isVisible</span>=<span class="hljs-string">{true}</span> /&gt;</span>
+        );
+    }
+
+    handleChange = (value) =&gt; {
+        this.setState({value});
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="hide"></a><a href="#hide" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>hide()</h3>
+<p>Hide the dropdown.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+dropdown.hide();
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+   
+   render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span>  <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{this.handleChange}</span>  <span class="hljs-attr">isVisible</span>=<span class="hljs-string">{false}</span> /&gt;</span>
+        );
+        
+    }
+
+    handleChange = (value) =&gt; {
+            this.setState({value});
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="disable"></a><a href="#disable" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>disable()</h3>
+<p>Disabled the dropdown.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+dropdown.disable();
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+   
+   render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span>  <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{this.handleChange}</span>  <span class="hljs-attr">isDisabled</span>=<span class="hljs-string">{true}</span> /&gt;</span>
+        ); 
+    }
+    handleChange = (value) =&gt; {
+         this.setState({value});
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="enable"></a><a href="#enable" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>enable()</h3>
+<p>Enabled the dropdown.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">var</span> dropdown = <span class="hljs-keyword">new</span> kintoneUIComponent.Dropdown({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+        },
+        {
+            <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+            <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+        }
+    ],
+    <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+});
+
+<span class="hljs-keyword">var</span> body = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">"BODY"</span>)[<span class="hljs-number">0</span>];
+    body.appendChild(dropdown.render());
+
+dropdown.enable();
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { Dropdown } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+   
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Orange'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">label</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">value</span>: <span class="hljs-string">'Lemon'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-string">'Banana'</span>
+        };
+    }
+   
+   render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Dropdown</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span>  <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{this.handleChange}</span>  <span class="hljs-attr">isDisabled</span>=<span class="hljs-string">{false}</span> /&gt;</span>
+        );
+        
+    }
+
+    handleChange = (value) =&gt; {
+        this.setState({value});
+    }
+}
+
+</span></code></pre>
+<p></details></p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#overview">Overview</a></li><li><a href="#constructor">Constructor</a></li><li><a href="#methods">Methods</a><ul class="toc-headings"><li><a href="#render">render()</a></li><li><a href="#additemitem">addItem(item)</a></li><li><a href="#removeitemindex">removeItem(index)</a></li><li><a href="#getitems">getItems()</a></li><li><a href="#getvalue">getValue()</a></li><li><a href="#setvaluevalue">setValue(value)</a></li><li><a href="#disableitemvalue">disableItem(value)</a></li><li><a href="#enableitemvalue">enableItem(value)</a></li><li><a href="#oneventname-callback">on(eventName, callBack)</a></li><li><a href="#show">show()</a></li><li><a href="#hide">hide()</a></li><li><a href="#disable">disable()</a></li><li><a href="#enable">enable()</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/docusaurus-sample/" class="nav-home"><img src="/docusaurus-sample/img/kintone.png" alt="kintone ui component" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docusaurus-sample/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docusaurus-sample/docs/en/doc2.html">Guides (or other categories)</a><a href="/docusaurus-sample/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/docusaurus-sample/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/docusaurus-sample/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/docusaurus-sample/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2019 Cybozu</section></footer></div></body></html>

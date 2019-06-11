@@ -1,0 +1,795 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>reference/Tabs · kintone ui component</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;tabs&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#tabs&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tabs&lt;/h1&gt;
+"/><meta name="docsearch:version" content="next"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="reference/Tabs · kintone ui component"/><meta property="og:type" content="website"/><meta property="og:url" content="https://__userName__.github.io/docusaurus-sample/"/><meta property="og:description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;tabs&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#tabs&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Tabs&lt;/h1&gt;
+"/><meta property="og:image" content="https://__userName__.github.io/docusaurus-sample/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://__userName__.github.io/docusaurus-sample/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/docusaurus-sample/img/kintone.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://__userName__.github.io/docusaurus-sample/blog/atom.xml" title="kintone ui component Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://__userName__.github.io/docusaurus-sample/blog/feed.xml" title="kintone ui component Blog RSS Feed"/><link rel="stylesheet" href="/docusaurus-sample//css/code-block-buttons.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/docusaurus-sample/js/code-block-buttons.js"></script><script src="/docusaurus-sample/js/scrollSpy.js"></script><link rel="stylesheet" href="/docusaurus-sample/css/main.css"/><script src="/docusaurus-sample/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaurus-sample/"><img class="logo" src="/docusaurus-sample/img/kintone.png" alt="kintone ui component"/><h2 class="headerTitleWithLogo">kintone ui component</h2></a><a href="/docusaurus-sample/versions"><h3>next</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docusaurus-sample/docs/next/home" target="_self">Docs</a></li><li class=""><a href="/docusaurus-sample/docs/next/doc4" target="_self">API</a></li><li class=""><a href="/docusaurus-sample/docs/next/doc6" target="_self">Others</a></li><li class=""><a href="/docusaurus-sample/help" target="_self">Help</a></li><li class=""><a href="/docusaurus-sample/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">reference/Tabs</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="tabs"></a><a href="#tabs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tabs</h1>
+<h2><a class="anchor" aria-hidden="true" id="overview"></a><a href="#overview" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h2>
+<p><img src="../img/tabs.PNG" alt="Tabs"></p>
+<table>
+<thead>
+<tr><th>Number</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Selected Tab</td></tr>
+<tr><td>2</td><td>Not selected Tab</td></tr>
+<tr><td>3</td><td>Disabled Tab</td></tr>
+<tr><td>4</td><td>Tab content</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="constructor"></a><a href="#constructor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Constructor</h2>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>options</td><td>Object</td><td>Yes</td><td>An object contains params of constructor.</td></tr>
+<tr><td>options.items</td><td>Array&lt;Object&gt;</td><td>No</td><td>List of tabs.</td></tr>
+<tr><td>options.columns[x].tabName</td><td>String</td><td>Yes</td><td>Name of a tab.</td></tr>
+<tr><td>options.columns[x].tabContent</td><td>String</td><td>No</td><td>The value of an item.</td></tr>
+<tr><td>options.columns[x].isDisabled</td><td>Boolean</td><td>No</td><td>Indicate if tab will be disabled. <br> Default value: 'false'</td></tr>
+<tr><td>options.value</td><td>Integer</td><td>No</td><td>Index of selected tab.</td></tr>
+</tbody>
+</table>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs">var tab = new kintoneUIComponent.Tabs({
+<span class="hljs-symbol">    items:</span> [
+        {
+<span class="hljs-symbol">            tabName:</span> <span class="hljs-string">"Tab1"</span>,
+<span class="hljs-symbol">            tabContent:</span> <span class="hljs-string">"This is Tab1"</span>
+        },
+        {
+<span class="hljs-symbol">            tabName:</span> <span class="hljs-string">"Tab2"</span>,
+<span class="hljs-symbol">            tabContent:</span> <span class="hljs-string">"This is Tab2"</span>
+        },
+    　  {
+<span class="hljs-symbol">            tabName:</span> <span class="hljs-string">"Tab3"</span>,
+<span class="hljs-symbol">            tabContent:</span> <span class="hljs-string">"This is Tab3"</span>
+        }
+　  ]
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { <span class="hljs-type">Tabs</span> } from '<span class="hljs-meta">@kintone</span>/kintone-ui-component';
+<span class="hljs-keyword">import</span> <span class="hljs-type">React</span> from <span class="hljs-symbol">'reac</span>t';
+<span class="hljs-keyword">import</span> <span class="hljs-type">ReactDOM</span> from <span class="hljs-symbol">'react</span>-dom';
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    constructor(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                tabName: <span class="hljs-string">"Tab1"</span>,
+                tabContent: <span class="hljs-symbol">'This</span> is <span class="hljs-type">Tab1</span>'
+            },
+            {
+                tabName: <span class="hljs-string">"Tab2"</span>,
+                tabContent: <span class="hljs-string">"This is Tab2"</span>
+            },
+            {
+                tabName: <span class="hljs-string">"Tab3"</span>,
+                tabContent: <span class="hljs-string">"This is Tab3"</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = { items: items, value: <span class="hljs-number">1</span>};
+    }
+ 
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;<span class="hljs-type">Tabs</span> items={<span class="hljs-keyword">this</span>.state.items} value={<span class="hljs-keyword">this</span>.state.value} /&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+</code></pre>
+<p></details></p>
+<h2><a class="anchor" aria-hidden="true" id="methods"></a><a href="#methods" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Methods</h2>
+<h3><a class="anchor" aria-hidden="true" id="render"></a><a href="#render" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>render()</h3>
+<p>Get dom element of component.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Returns</strong></p>
+<p>Dom element</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> button = <span class="hljs-keyword">new</span> kintoneUIComponent.Button({
+    text: <span class="hljs-string">'Hello'</span>,
+    type: <span class="hljs-string">'submit'</span>
+});
+button.on(<span class="hljs-string">'click'</span>,<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(e)</span></span>{
+    alert(<span class="hljs-string">'hello'</span>)
+})
+<span class="hljs-keyword">var</span> tab = <span class="hljs-keyword">new</span> kintoneUIComponent.Tabs({
+    items: [
+        {
+            tabName: <span class="hljs-string">"Tab1"</span>,
+            tabContent: button.render()
+        },
+        {
+            tabName: <span class="hljs-string">"Tab2"</span>,
+            tabContent: <span class="hljs-string">"This is Tab2"</span>
+        },
+    　  {
+            tabName: <span class="hljs-string">"Tab3"</span>,
+            tabContent: <span class="hljs-string">"This is Tab3"</span>
+        }
+　  ]
+});
+
+kintone.events.on(<span class="hljs-string">'app.record.index.show'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> </span>{
+    <span class="hljs-keyword">var</span> el = kintone.app.getHeaderSpaceElement()
+    el.appendChild(tab.render());
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { <span class="hljs-type">Tabs</span> } from '<span class="hljs-meta">@kintone</span>/kintone-ui-component';
+<span class="hljs-keyword">import</span> <span class="hljs-type">React</span> from <span class="hljs-symbol">'reac</span>t';
+<span class="hljs-keyword">import</span> <span class="hljs-type">ReactDOM</span> from <span class="hljs-symbol">'react</span>-dom';
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    constructor(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                tabName: <span class="hljs-string">"Tab1"</span>,
+                tabContent: <span class="hljs-symbol">'This</span> is <span class="hljs-type">Tab1</span>'
+            },
+            {
+                tabName: <span class="hljs-string">"Tab2"</span>,
+                tabContent: <span class="hljs-string">"This is Tab2"</span>
+            },
+            {
+                tabName: <span class="hljs-string">"Tab3"</span>,
+                tabContent: <span class="hljs-string">"This is Tab3"</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = { items: items, value: <span class="hljs-number">1</span>};
+    }
+ 
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div&gt;
+                &lt;<span class="hljs-type">Tabs</span> items={<span class="hljs-keyword">this</span>.state.items} value={<span class="hljs-keyword">this</span>.state.value} /&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+ 
+kintone.events.on(<span class="hljs-symbol">'app</span>.record.index.show', function (event) {
+    <span class="hljs-type">ReactDOM</span>.render(
+        &lt;<span class="hljs-type">Sample</span> /&gt;,
+        kintone.app.getHeaderSpaceElement()
+    );
+});
+</code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="additemitem"></a><a href="#additemitem" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>addItem(item)</h3>
+<p>Add an item to end of the tab list.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>item</td><td>Object</td><td>Yes</td><td>The new tab to be added.</td></tr>
+<tr><td>item.tabName</td><td>String</td><td>Yes</td><td>Name of the new tab.</td></tr>
+<tr><td>item.tabContent</td><td>String</td><td>No</td><td>Content of the new tab.</td></tr>
+<tr><td>item.isDisabled</td><td>Boolean</td><td>No</td><td>Indicate tab will be disabled when display. <br>Default value: 'false'.</td></tr>
+</tbody>
+</table>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> tab = <span class="hljs-keyword">new</span> kintoneUIComponent.Tabs({
+    items: [
+        {
+            tabName: <span class="hljs-string">"Tab1"</span>,
+            tabContent: <span class="hljs-string">'This is Tab1'</span>
+        },
+        {
+            tabName: <span class="hljs-string">"Tab2"</span>,
+            tabContent: <span class="hljs-string">"This is Tab2"</span>
+        },
+    　  {
+            tabName: <span class="hljs-string">"Tab3"</span>,
+            tabContent: <span class="hljs-string">"This is Tab3"</span>
+        }
+    ]
+});
+kintone.events.on(<span class="hljs-string">'app.record.index.show'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> </span>{
+    <span class="hljs-keyword">var</span> el = kintone.app.getHeaderSpaceElement();
+    <span class="hljs-keyword">var</span> item = { tabName: <span class="hljs-string">"Tab4"</span>, tabContent: <span class="hljs-string">"This is Tab4"</span>, isDisabled: <span class="hljs-literal">true</span> };
+
+    el.appendChild(tab.render());
+    tab.addItem(item);
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab1"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">'This is Tab1'</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab2"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab2"</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab3"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab3"</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = { <span class="hljs-attr">items</span>: items, <span class="hljs-attr">value</span>: <span class="hljs-number">1</span>};
+    }
+ 
+    handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">const</span> item = { <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab4"</span>, <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab4"</span>, <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span> };
+        <span class="hljs-keyword">this</span>.setState(<span class="hljs-function"><span class="hljs-params">prevState</span> =&gt;</span> ({
+            <span class="hljs-attr">items</span>: prevState.items ? prevState.items.concat([item]) : [item]
+        }))
+    }
+ 
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Tabs</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Add Item<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+}
+ 
+kintone.events.on('app.record.index.show', function (event) {
+    ReactDOM.render(
+        <span class="hljs-tag">&lt;<span class="hljs-name">Sample</span> /&gt;</span>,
+        kintone.app.getHeaderSpaceElement()
+    );
+});
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="removeitemindex"></a><a href="#removeitemindex" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>removeItem(index)</h3>
+<p>Remove item at specific index of tab list.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>index</td><td>Interger</td><td>Yes</td><td>The position of tab to be removed.<br>If the index does not define a position in the Item, No item will be removed.</td></tr>
+</tbody>
+</table>
+<p><strong>Returns</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> <span class="hljs-keyword">tab</span> = new kintoneUIComponent.Tabs({
+    items: [
+        {
+            tabName: <span class="hljs-string">"Tab1"</span>,
+            tabContent: 'This is <span class="hljs-keyword">Tab1</span>'
+        },
+        {
+            tabName: <span class="hljs-string">"Tab2"</span>,
+            tabContent: <span class="hljs-string">"This is Tab2"</span>
+        },
+    　  {
+            tabName: <span class="hljs-string">"Tab3"</span>,
+            tabContent: <span class="hljs-string">"This is Tab3"</span>
+        }
+    ]
+});
+kintone.events.<span class="hljs-keyword">on</span>('<span class="hljs-keyword">app</span>.record.index.show', function(event) {
+    <span class="hljs-keyword">var</span> el = kintone.<span class="hljs-keyword">app</span>.getHeaderSpaceElement();
+
+    el.appendChild(<span class="hljs-keyword">tab</span>.render());
+    <span class="hljs-keyword">tab</span>.removeItem(0);
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab1"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">'This is Tab1'</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab2"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab2"</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab3"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab3"</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = { <span class="hljs-attr">items</span>: items, <span class="hljs-attr">value</span>: <span class="hljs-number">1</span>};
+    }
+ 
+    handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState(<span class="hljs-function"><span class="hljs-params">prevState</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (prevState.items) {
+                <span class="hljs-keyword">return</span> prevState.items.splice(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>);
+            }
+            <span class="hljs-keyword">return</span> prevState;
+        });
+    }
+ 
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Tabs</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Remove Item<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+}
+ 
+kintone.events.on('app.record.index.show', function (event) {
+    ReactDOM.render(
+        <span class="hljs-tag">&lt;<span class="hljs-name">Sample</span> /&gt;</span>,
+        kintone.app.getHeaderSpaceElement()
+    );
+});
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="getitems"></a><a href="#getitems" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>getItems()</h3>
+<p>Get all tabs.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Return</strong></p>
+<p>The array contains all tabs.</p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>items</td><td>Array&lt;Object&gt;</td><td>The new tab to be added.</td></tr>
+<tr><td>items[].tabName</td><td>String</td><td>Name of the new tab.</td></tr>
+<tr><td>items[].tabContent</td><td>String</td><td>Content of the tab.</td></tr>
+<tr><td>items[].isDisabled</td><td>Boolean</td><td>Indicate tab is disabled when display.</td></tr>
+</tbody>
+</table>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> tab = <span class="hljs-keyword">new</span> kintoneUIComponent.Tabs({
+    <span class="hljs-attr">items</span>: [
+        {
+            <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab1"</span>,
+            <span class="hljs-attr">tabContent</span>: <span class="hljs-string">'This is Tab1'</span>
+        },
+        {
+            <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab2"</span>,
+            <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab2"</span>
+        },
+        　{
+            <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab3"</span>,
+            <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab3"</span>
+        }
+    ]
+});
+
+kintone.events.on(<span class="hljs-string">'app.record.index.show'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) </span>{
+    <span class="hljs-keyword">var</span> el = kintone.app.getHeaderSpaceElement();
+    el.appendChild(tab.render());
+
+    <span class="hljs-keyword">var</span> items = tab.getItems();
+    items.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">item</span>) </span>{
+        <span class="hljs-built_in">console</span>.log(item);
+    });
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab1"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">'This is Tab1'</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab2"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab2"</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab3"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab3"</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = { <span class="hljs-attr">items</span>: items, <span class="hljs-attr">value</span>: <span class="hljs-number">1</span>};
+    }
+ 
+    handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.state.items.forEach(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> {
+            <span class="hljs-built_in">console</span>.log(item);
+        });
+    }
+ 
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Tabs</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Get Items<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+}
+ 
+kintone.events.on('app.record.index.show', function (event) {
+    ReactDOM.render(
+        <span class="hljs-tag">&lt;<span class="hljs-name">Sample</span> /&gt;</span>,
+        kintone.app.getHeaderSpaceElement()
+    );
+});
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="getvalue"></a><a href="#getvalue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>getValue()</h3>
+<p>Get index of selected item.</p>
+<p><strong>Parameter</strong></p>
+<p>None</p>
+<p><strong>Return</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>value</td><td>Interger</td><td>The selected tab index.</td></tr>
+</tbody>
+</table>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> <span class="hljs-keyword">tab</span> = new kintoneUIComponent.Tabs({
+    items: [
+        {
+            tabName: <span class="hljs-string">"Tab1"</span>,
+            tabContent: 'This is <span class="hljs-keyword">Tab1</span>'
+        },
+        {
+            tabName: <span class="hljs-string">"Tab2"</span>,
+            tabContent: <span class="hljs-string">"This is Tab2"</span>
+        },
+    　  {
+            tabName: <span class="hljs-string">"Tab3"</span>,
+            tabContent: <span class="hljs-string">"This is Tab3"</span>
+        }
+    ]
+});
+
+kintone.events.<span class="hljs-keyword">on</span>('<span class="hljs-keyword">app</span>.record.index.show', function(event) {
+    <span class="hljs-keyword">var</span> el = kintone.<span class="hljs-keyword">app</span>.getHeaderSpaceElement();
+    el.appendChild(<span class="hljs-keyword">tab</span>.render());
+
+    console.<span class="hljs-built_in">log</span>(<span class="hljs-keyword">tab</span>.getValue());
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+  
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab1"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">'This is Tab1'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab2"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab2"</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">false</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab3"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab3"</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = {
+            <span class="hljs-attr">items</span>: items,
+            <span class="hljs-attr">value</span>: <span class="hljs-number">0</span>
+        };
+    }
+  
+    render() {
+        <span class="hljs-keyword">return</span> (
+         <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">Tabs</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> <span class="hljs-attr">onSelect</span>=<span class="hljs-string">{(item,</span> <span class="hljs-attr">index</span>) =&gt;</span> {this.setState({value: index})}} /&gt;
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Get Value<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+       );
+    }
+  
+    handleClick = () =&gt; {
+        console.log(this.state.value);
+    }
+}
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="setvaluevalue"></a><a href="#setvaluevalue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>setValue(value)</h3>
+<p>Set the selected value for the tab.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>value</td><td>Interger</td><td>Yes</td><td>The selected tab index.</td></tr>
+</tbody>
+</table>
+<p><strong>Return</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> <span class="hljs-keyword">tab</span> = new kintoneUIComponent.Tabs({
+    items: [
+        {
+            tabName: <span class="hljs-string">"Tab1"</span>,
+            tabContent: 'This is <span class="hljs-keyword">Tab1</span>'
+        },
+        {
+            tabName: <span class="hljs-string">"Tab2"</span>,
+            tabContent: <span class="hljs-string">"This is Tab2"</span>
+        },
+    　  { 
+            tabName: <span class="hljs-string">"Tab3"</span>,
+            tabContent: <span class="hljs-string">"This is Tab3"</span>
+        }
+    ]
+});
+kintone.events.<span class="hljs-keyword">on</span>('<span class="hljs-keyword">app</span>.record.index.show', function(event) {
+    <span class="hljs-keyword">var</span> el = kintone.<span class="hljs-keyword">app</span>.getHeaderSpaceElement();
+    el.appendChild(<span class="hljs-keyword">tab</span>.render());
+
+    <span class="hljs-keyword">tab</span>.setValue(1);
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab1"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">'This is Tab1'</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab2"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab2"</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab3"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab3"</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = { <span class="hljs-attr">items</span>: items, <span class="hljs-attr">value</span>: <span class="hljs-number">1</span>};
+    }
+ 
+    handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">value</span>: <span class="hljs-number">0</span> });
+    }
+ 
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Tabs</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Set Value<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+}
+ 
+kintone.events.on('app.record.index.show', function (event) {
+    ReactDOM.render(
+        <span class="hljs-tag">&lt;<span class="hljs-name">Sample</span> /&gt;</span>,
+        kintone.app.getHeaderSpaceElement()
+    );
+});
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="disableitemtabname"></a><a href="#disableitemtabname" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>disableItem(tabName)</h3>
+<p>Disable a tab.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>tabName</td><td>String</td><td>Yes</td><td>The name of tab.</td></tr>
+</tbody>
+</table>
+<p><strong>Return</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> <span class="hljs-keyword">tab</span> = new kintoneUIComponent.Tabs({
+    items: [
+        {
+            tabName: <span class="hljs-string">"Tab1"</span>,
+            tabContent: 'This is <span class="hljs-keyword">Tab1</span>'
+        },
+        {
+            tabName: <span class="hljs-string">"Tab2"</span>,
+            tabContent: <span class="hljs-string">"This is Tab2"</span>
+        },
+    　  {
+            tabName: <span class="hljs-string">"Tab3"</span>,
+            tabContent: <span class="hljs-string">"This is Tab3"</span>
+        }
+    ]
+});
+kintone.events.<span class="hljs-keyword">on</span>('<span class="hljs-keyword">app</span>.record.index.show', function(event) {
+    <span class="hljs-keyword">var</span> el = kintone.<span class="hljs-keyword">app</span>.getHeaderSpaceElement();
+    el.appendChild(<span class="hljs-keyword">tab</span>.render());
+
+    <span class="hljs-keyword">tab</span>.disableItem('<span class="hljs-keyword">Tab2</span>');
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab1"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">'This is Tab1'</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab2"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab2"</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab3"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab3"</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = { <span class="hljs-attr">items</span>: items, <span class="hljs-attr">value</span>: <span class="hljs-number">1</span>};
+    }
+ 
+    handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">const</span> items = [...this.state.items];
+        items[<span class="hljs-number">0</span>].isDisabled = <span class="hljs-literal">true</span>;
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">items</span>: items });
+    }
+ 
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Tabs</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Set disabled<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+}
+ 
+kintone.events.on('app.record.index.show', function (event) {
+    ReactDOM.render(
+        <span class="hljs-tag">&lt;<span class="hljs-name">Sample</span> /&gt;</span>,
+        kintone.app.getHeaderSpaceElement()
+    );
+});
+</span></code></pre>
+<p></details></p>
+<h3><a class="anchor" aria-hidden="true" id="enableitemtabname"></a><a href="#enableitemtabname" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>enableItem(tabName)</h3>
+<p>Enable a tab.</p>
+<p><strong>Parameter</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>tabName</td><td>String</td><td>Yes</td><td>The name of tab.</td></tr>
+</tbody>
+</table>
+<p><strong>Return</strong></p>
+<p>None</p>
+<p><details class="tab-container" open>
+<Summary>Sample</Summary></p>
+<p><strong>Javascript</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> tab = <span class="hljs-keyword">new</span> kintoneUIComponent.Tabs({
+    items: [
+        {
+            tabName: <span class="hljs-string">"Tab1"</span>,
+            tabContent: <span class="hljs-string">'This is Tab1'</span>
+        },
+        {
+            tabName: <span class="hljs-string">"Tab2"</span>,
+            tabContent: <span class="hljs-string">"This is Tab2"</span>,
+            isDisabled: <span class="hljs-literal">true</span>
+        },
+    　  {
+            tabName: <span class="hljs-string">"Tab3"</span>,
+            tabContent: <span class="hljs-string">"This is Tab3"</span>
+        }
+    ]
+});
+kintone.events.on(<span class="hljs-string">'app.record.index.show'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(event)</span> </span>{
+    <span class="hljs-keyword">var</span> el = kintone.app.getHeaderSpaceElement();
+    el.appendChild(tab.render());
+
+    tab.enableItem(<span class="hljs-string">'Tab2'</span>);
+});
+</code></pre>
+<p><strong>React</strong></p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'@kintone/kintone-ui-component'</span>;
+<span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+ 
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Sample</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    <span class="hljs-keyword">constructor</span>(opts) {
+        <span class="hljs-keyword">super</span>(opts);
+        <span class="hljs-keyword">var</span> items = [
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab1"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">'This is Tab1'</span>,
+                <span class="hljs-attr">isDisabled</span>: <span class="hljs-literal">true</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab2"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab2"</span>
+            },
+            {
+                <span class="hljs-attr">tabName</span>: <span class="hljs-string">"Tab3"</span>,
+                <span class="hljs-attr">tabContent</span>: <span class="hljs-string">"This is Tab3"</span>
+            }
+        ];
+        <span class="hljs-keyword">this</span>.state = { <span class="hljs-attr">items</span>: items, <span class="hljs-attr">value</span>: <span class="hljs-number">1</span>};
+    }
+ 
+    handleClick = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">const</span> items = [...this.state.items];
+        items[<span class="hljs-number">0</span>].isDisabled = <span class="hljs-literal">false</span>;
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">items</span>: items });
+    }
+ 
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Tabs</span> <span class="hljs-attr">items</span>=<span class="hljs-string">{this.state.items}</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{this.state.value}</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick}</span>&gt;</span>Set disabled<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        );
+    }
+}
+ 
+kintone.events.on('app.record.index.show', function (event) {
+    ReactDOM.render(
+        <span class="hljs-tag">&lt;<span class="hljs-name">Sample</span> /&gt;</span>,
+        kintone.app.getHeaderSpaceElement()
+    );
+});
+</span></code></pre>
+<p></details></p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#overview">Overview</a></li><li><a href="#constructor">Constructor</a></li><li><a href="#methods">Methods</a><ul class="toc-headings"><li><a href="#render">render()</a></li><li><a href="#additemitem">addItem(item)</a></li><li><a href="#removeitemindex">removeItem(index)</a></li><li><a href="#getitems">getItems()</a></li><li><a href="#getvalue">getValue()</a></li><li><a href="#setvaluevalue">setValue(value)</a></li><li><a href="#disableitemtabname">disableItem(tabName)</a></li><li><a href="#enableitemtabname">enableItem(tabName)</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/docusaurus-sample/" class="nav-home"><img src="/docusaurus-sample/img/kintone.png" alt="kintone ui component" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docusaurus-sample/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docusaurus-sample/docs/en/doc2.html">Guides (or other categories)</a><a href="/docusaurus-sample/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/docusaurus-sample/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/docusaurus-sample/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/docusaurus-sample/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2019 Cybozu</section></footer></div></body></html>
