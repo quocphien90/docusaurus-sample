@@ -1,13 +1,22 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Home": ["home"],
+    "Getting started": ["quickstart/quickstart-javascript", "quickstart/quickstart-react"],
+    "Reference": [
+      "reference/alert", 
+      "reference/attachment", 
+      "reference/button",
+      "reference/checkbox"
+    ]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "First Category": ["doc4", "doc5"],
+    "reference": [
+      "button"
+    ]
   },
   "example-other": {
-    "Example Category": ["doc6"]
+    "Example Category": ["doc6"],
+    "Button": ["button"]
   }
 }

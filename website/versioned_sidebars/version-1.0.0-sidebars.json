@@ -1,0 +1,33 @@
+{
+  "version-1.0.0-docs": {
+    "Home": [
+      "version-1.0.0-home"
+    ],
+    "Getting started": [
+      "version-1.0.0-quickstart/quickstart-javascript",
+      "version-1.0.0-quickstart/quickstart-react"
+    ],
+    "Reference": [
+      "version-1.0.0-reference/alert",
+      "version-1.0.0-reference/attachment",
+      "version-1.0.0-reference/button"
+    ]
+  },
+  "version-1.0.0-docs-other": {
+    "First Category": [
+      "version-1.0.0-doc4",
+      "version-1.0.0-doc5"
+    ],
+    "reference": [
+      "version-1.0.0-button"
+    ]
+  },
+  "version-1.0.0-example-other": {
+    "Example Category": [
+      "version-1.0.0-doc6"
+    ],
+    "Button": [
+      "version-1.0.0-button"
+    ]
+  }
+}

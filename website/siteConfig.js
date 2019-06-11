@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
+  title: 'kintone ui component', // Title for your website.
   tagline: 'A website for testing',
   url: 'https://__userName__.github.io', // Your website URL
   baseUrl: '/docusaurus-sample/', // Base URL for your project */
@@ -38,7 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'home', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
     {doc: 'doc6', label: 'Others'},
     {page: 'help', label: 'Help'},
@@ -49,15 +49,16 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/kintone.png',
+  footerIcon: 'img/kintone.png',
+  favicon: 'img/kintone.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#54053f',
+    primaryColor: '#03a9f4',
     secondaryColor: '#3a032c',
   },
+  docsSideNavCollapsible: true,
 
   /* Custom fonts for website */
   /*
@@ -74,7 +75,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Cybozu`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
