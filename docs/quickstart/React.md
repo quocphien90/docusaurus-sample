@@ -106,4 +106,4 @@ result:
 ```
 * Attach my-customization.min.js into [kintone app setting](https://help.kintone.com/en/k/user/js_customize.html)
 
-![](../img/result.PNG)
+![Result](../../img/result.PNG)
