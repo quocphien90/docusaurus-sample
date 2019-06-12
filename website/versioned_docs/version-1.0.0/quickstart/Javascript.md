@@ -27,4 +27,4 @@ original_id: quickstart-javascript
 ```
 * Attach index.js file into [kintone app setting](https://help.kintone.com/en/k/user/js_customize.html)
 
-![](../img/result.PNG)
+![](../../img/result.PNG)
